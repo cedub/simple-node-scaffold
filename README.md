@@ -1,4 +1,4 @@
 Node Scaffold
 =====================
 
-A very simple node and angular boiler plate.
+A very simple node and scaffold.
