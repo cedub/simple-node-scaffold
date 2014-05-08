@@ -1,12 +1,17 @@
 {
-  "name": "bayhill",
-  "devDependencies": {
-    "angular": "~1.2.8",
-    "bootstrap": "~3.0.3",
-    "angular-bootstrap": "~0.9.0",
-    "angular-route": "latest",
-    "angular-ui-router": "~0.2.0",
-    "angular-ui-utils": "~0.0.4",
-    "lodash": "2.4.1"
-  }
+  "name": "node-scaffold",
+  "version": "0.0.0",
+  "authors": [
+    "Christian West <christian@meosphere.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
 }

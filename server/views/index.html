@@ -1,18 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
-  <title>Node Scaffold</title>
+<html>
+  <head>
 
-  <!-- Styles -->
-  <!-- <link rel="stylesheet" href="/static/css/style.css"> -->
-  
-  <!-- Vendor scripts -->
-  <!-- <script type="text/javascript" src="/static/app/bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .red {
+        color: red;
+      }
+    </style>
 
-</head>
-<body>
-  <h1>Landing page</h1>
-</body>
+    <script src="/static/vendor/platform/platform.js"></script>
+
+    <link rel="import" href="/static/app/elements/password-field.html">
+    <link rel="import" href="/static/app/elements/birthdate-field.html">
+    <link rel="import" href="/static/app/elements/city-state-zip-field.html">
+
+  </head>
+  <body unresolved>
+  <div class="container">
+    <div class="jumbotron">
+      <password-field></password-field>
+      <birthdate-field></birthdate-field>
+      <city-state-zip-field></city-state-zip-field>
+      <span class="red">I am green</span>
+    </div>
+  </div>
+  </body>
 </html>
